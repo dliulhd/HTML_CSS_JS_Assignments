@@ -4,17 +4,55 @@
 	<title>Assignment Solution for Module 2</title>
 
 <style>
-h1 {
-	align-content: center;
+body {
+	margin: 0;
+	padding: 0;
+	/*box-sizing: border-box;*/
 }
+
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+h1 {
+	text-align: center;
+}
+h2 {
+	text-align: right;
+}
+
+#box{
+	background-color: gray;
+	padding: 10px;
+	border: 10px;
+	margin: 10px;
+	width: 45%;
+	float: left;
+	position:relative;
+	/*box-sizing: border-box;*/
+}
+#dish {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	background-color: red;
+}
+
 </style>
 </head>
 
 <body>
 <h1>Our Menu</h1>
-<div>
-	<h2>Chicken</h2>
-	<p>Iorem ipsum dolor sit amet, consectetur adipsicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</p>
+<div id = "box">
+	<p id="dish">Chicken</p>
+	<p id="recipe">Iorem ipsum dolor sit amet, consectetur adipsicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</p>
 </div>
+
+<div id = "box">
+	<p id="content">Iorem ipsum dolor sit amet, consectetur adipsicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</p>
+</div>
+
 </body>
 </html>
